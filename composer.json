@@ -1,0 +1,30 @@
+{
+    "name": "marclang64/kern",
+    "description": "a lightweight PHP microframework",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.5"
+    },
+    "require-dev": {
+        "marclang64/backend-tooling": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marclang64/backend-tooling"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kern\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kern\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

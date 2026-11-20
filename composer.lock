@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "21e79f21cb2d9c57ba7d272bd2c5f426",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "marclang64/backend-tooling",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marclang64/backend-tooling.git",
+                "reference": "56cfd79d59df522223f51dcd2164bbf3191e05d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marclang64/backend-tooling/zipball/56cfd79d59df522223f51dcd2164bbf3191e05d0",
+                "reference": "56cfd79d59df522223f51dcd2164bbf3191e05d0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.95",
+                "phpstan/phpstan": "^2.3",
+                "phpunit/phpunit": "^13.4",
+                "symfony/process": "^8.1"
+            },
+            "type": "library",
+            "scripts": {
+                "lint:style": [
+                    "php-cs-fixer fix --dry-run --diff"
+                ],
+                "fix:style": [
+                    "php-cs-fixer fix"
+                ],
+                "lint:types": [
+                    "phpstan analyse --no-progress"
+                ],
+                "test": [
+                    "phpunit"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Reusable tooling configurations for modern PHP development",
+            "support": {
+                "source": "https://github.com/marclang64/backend-tooling/tree/v1.0.0",
+                "issues": "https://github.com/marclang64/backend-tooling/issues"
+            },
+            "time": "2026-11-20T00:13:15+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.5"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}

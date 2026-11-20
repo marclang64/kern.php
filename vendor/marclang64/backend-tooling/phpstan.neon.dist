@@ -1,0 +1,6 @@
+includes:
+    - configs/phpstan.neon
+
+parameters:
+    paths:
+        - configs
