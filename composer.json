@@ -4,7 +4,10 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": "^8.5"
+        "php": "^8.5",
+        "nyholm/psr7": "^1.8",
+        "psr/http-message": "^2.0",
+        "psr/http-factory": "^1.1"
     },
     "require-dev": {
         "marclang64/backend-tooling": "1.2.0"
