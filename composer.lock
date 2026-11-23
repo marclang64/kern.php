@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21e79f21cb2d9c57ba7d272bd2c5f426",
+    "content-hash": "0cc6bf5ca2915ba8d3578517f2186709",
     "packages": [],
     "packages-dev": [
         {
@@ -574,16 +574,16 @@
         },
         {
             "name": "marclang64/backend-tooling",
-            "version": "v1.0.1",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marclang64/backend-tooling.git",
-                "reference": "345d975e677cda97439a86d4d772ef8ee4cc408c"
+                "reference": "84095d41c3c6c13f5bc39c900d44afd39bb2fad0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marclang64/backend-tooling/zipball/345d975e677cda97439a86d4d772ef8ee4cc408c",
-                "reference": "345d975e677cda97439a86d4d772ef8ee4cc408c",
+                "url": "https://api.github.com/repos/marclang64/backend-tooling/zipball/84095d41c3c6c13f5bc39c900d44afd39bb2fad0",
+                "reference": "84095d41c3c6c13f5bc39c900d44afd39bb2fad0",
                 "shasum": ""
             },
             "require": {
@@ -595,7 +595,15 @@
             "require-dev": {
                 "symfony/process": "^8.1"
             },
+            "bin": [
+                "bin/backend-tooling"
+            ],
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BackendTooling\\": "src/"
+                }
+            },
             "scripts": {
                 "lint:style": [
                     "php-cs-fixer fix --dry-run --diff"
@@ -615,10 +623,10 @@
             ],
             "description": "Reusable tooling configurations for modern PHP development",
             "support": {
-                "source": "https://github.com/marclang64/backend-tooling/tree/v1.0.1",
+                "source": "https://github.com/marclang64/backend-tooling/tree/v1.1.1",
                 "issues": "https://github.com/marclang64/backend-tooling/issues"
             },
-            "time": "2026-11-23T19:40:00+00:00"
+            "time": "2026-11-23T20:58:05+00:00"
         },
         {
             "name": "myclabs/deep-copy",

@@ -1,9 +1,10 @@
 # Vendor
 /vendor/
 
-# PHP CS Fixer configuration
+# PHP CS Fixer
 /.php-cs-fixer.cache
 /.php-cs-fixer.php
 
-# PHP Unit
+# PHPUnit
 /.phpunit.cache/
+/.phpunit.result.cache
