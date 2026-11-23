@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Kern\Routing;
 
+use Kern\Routing\Exceptions\DuplicateRouteException;
+use Kern\Routing\Exceptions\RouteNotFoundException;
+
 final class Router {
     private array $routes = [];
 
@@ -20,7 +23,7 @@ final class Router {
         $handler = $this->routes[$method][$path] ?? null;
 
         if ($handler === null) {
-            throw new \RuntimeException('Route not found');
+            throw new RouteNotFoundException($path);
         }
 
         return $handler();
@@ -28,7 +31,7 @@ final class Router {
 
     private function addRoute(string $method, string $path, callable $handler): void {
         if (isset($this->routes[$method][$path])) {
-            throw new \RuntimeException('Route already exists');
+            throw new DuplicateRouteException($path);
         }
 
         $this->routes[$method][$path] = $handler;
