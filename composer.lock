@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cc6bf5ca2915ba8d3578517f2186709",
+    "content-hash": "12d294d8f5f1c9fd96a0a58a7600d005",
     "packages": [],
     "packages-dev": [
         {
@@ -574,16 +574,16 @@
         },
         {
             "name": "marclang64/backend-tooling",
-            "version": "v1.1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marclang64/backend-tooling.git",
-                "reference": "84095d41c3c6c13f5bc39c900d44afd39bb2fad0"
+                "reference": "c46df4c5d77fb26923e23c6d5485e78631e19377"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marclang64/backend-tooling/zipball/84095d41c3c6c13f5bc39c900d44afd39bb2fad0",
-                "reference": "84095d41c3c6c13f5bc39c900d44afd39bb2fad0",
+                "url": "https://api.github.com/repos/marclang64/backend-tooling/zipball/c46df4c5d77fb26923e23c6d5485e78631e19377",
+                "reference": "c46df4c5d77fb26923e23c6d5485e78631e19377",
                 "shasum": ""
             },
             "require": {
@@ -623,10 +623,10 @@
             ],
             "description": "Reusable tooling configurations for modern PHP development",
             "support": {
-                "source": "https://github.com/marclang64/backend-tooling/tree/v1.1.1",
+                "source": "https://github.com/marclang64/backend-tooling/tree/v1.2.0",
                 "issues": "https://github.com/marclang64/backend-tooling/issues"
             },
-            "time": "2026-11-23T20:58:05+00:00"
+            "time": "2026-11-23T21:22:32+00:00"
         },
         {
             "name": "myclabs/deep-copy",

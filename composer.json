@@ -7,7 +7,7 @@
         "php": "^8.5"
     },
     "require-dev": {
-        "marclang64/backend-tooling": "1.1.1"
+        "marclang64/backend-tooling": "1.2.0"
     },
     "repositories": [
         {
