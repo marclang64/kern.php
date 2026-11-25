@@ -10,7 +10,7 @@
         "psr/http-factory": "^1.1"
     },
     "require-dev": {
-        "marclang64/backend-tooling": "1.2.0"
+        "marclang64/backend-tooling": "1.3.0"
     },
     "repositories": [
         {
@@ -22,7 +22,9 @@
         "lint:style": "php-cs-fixer fix --dry-run --diff",
         "fix:style": "php-cs-fixer fix",
         "lint:types": "phpstan analyse --no-progress",
-        "test": "phpunit"
+        "test": "phpunit",
+        "lint:rector": "rector process --dry-run",
+        "fix:rector": "rector process"
     },
     "autoload": {
         "psr-4": {
