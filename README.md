@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="assets/logo.png" alt="kern.php" width="450">
 </div>
@@ -27,12 +28,12 @@ Rather than providing a large collection of built-in features, kern focuses on a
 
 ## Design principles
 
-- **Lightweight** — keep the core small and focused.
-- **Modular** — separate responsibilities into independent components.
-- **Explicit** — prefer understandable code over hidden framework magic.
-- **Extensible** — integrate external packages instead of expanding the core unnecessarily.
-- **Standards-oriented** — follow established PHP standards where appropriate.
-- **Educational** — prioritize understanding architectural decisions.
+- **Lightweight** - keep the core small and focused.
+- **Modular** - separate responsibilities into independent components.
+- **Explicit** - prefer understandable code over hidden framework magic.
+- **Extensible** - integrate external packages instead of expanding the core unnecessarily.
+- **Standards-oriented** - follow established PHP standards where appropriate.
+- **Educational** - prioritize understanding architectural decisions.
 
 ## Planned features
 
@@ -40,38 +41,44 @@ Rather than providing a large collection of built-in features, kern focuses on a
 | --- | --- |
 | **Application** | Coordinate initialization and the request lifecycle |
 | **Router** | Match HTTP requests to registered routes |
-| **Request** | Represent incoming HTTP requests |
-| **Response** | Build and return HTTP responses |
+| **Request** | Handle incoming HTTP requests through PSR-7 interfaces |
+| **Response** | Create and return HTTP responses using PSR-7 and PSR-17 |
 | **Middleware** | Process requests through a configurable pipeline |
 | **Dependency Injection Container** | Manage object creation and dependencies |
 | **Error Handling** | Handle exceptions and HTTP errors consistently |
 
-The router is already available in a basic form. The remaining components are planned and will be added incrementally.
+The router is already available in a basic form, including HTTP method-based routing, custom routing exceptions, and automated unit tests.
+
+The remaining components will be added incrementally.
 
 ## Roadmap
 
 kern is developed incrementally, focusing on the essential building blocks of a lightweight PHP microframework.
 
 - [x] Project setup
-- [ ] Basic HTTP router
-- [ ] HTTP request and response handling
+- [x] Development tooling
+- [x] Basic HTTP router
+- [x] Custom routing exceptions
+- [x] Automated testing and CI setup
+- [ ] HTTP request and response handling (PSR-7 and PSR-17)
+- [ ] Application lifecycle
 - [ ] Middleware support
 - [ ] Dependency injection container
 - [ ] Error and exception handling
-- [ ] Automated testing and CI
 - [ ] Documentation and first release
 
 The goal is to keep kern small, understandable, and extensible rather than turning it into a full-stack framework.
 
 ## Tech stack
 
-- **PHP** — framework implementation
-- **Composer** — dependency management and autoloading
-- **[marclang64/php-tooling](https://github.com/marclang64/php-tooling)** — reusable package for PHP development tooling and code quality
-  - **PHPUnit** — automated testing
-  - **PHPStan** — static code analysis
-  - **PHP-CS-Fixer** — code formatting
-  - **GitHub Actions** — planned continuous integration
+- **PHP 8.5+** - framework implementation
+- **Composer** - dependency management and autoloading
+- **[marclang64/php-tooling](https://github.com/marclang64/php-tooling)** - reusable package for PHP development tooling and code quality
+  - **PHPUnit** - automated testing
+  - **PHPStan** - static code analysis
+  - **PHP-CS-Fixer** - code formatting and coding standards
+  - **Rector** - automated code refactoring
+- **GitHub Actions** - continuous integration
 
 ## AI Usage & Attribution
 
