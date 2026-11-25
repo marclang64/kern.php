@@ -9,4 +9,4 @@ return RectorConfig::configure()
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ])
-    ->withSets([__DIR__ . '/vendor/marclang64/backend-tooling/configs/rector.php']);
+    ->withSets([__DIR__ . '/vendor/marclang64/php-tooling/configs/rector.php']);

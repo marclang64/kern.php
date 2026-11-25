@@ -1,5 +1,5 @@
 includes:
-    - vendor/marclang64/backend-tooling/configs/phpstan.neon
+    - vendor/marclang64/php-tooling/configs/phpstan.neon
 
 parameters:
     paths:

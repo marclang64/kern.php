@@ -67,7 +67,7 @@ The goal is to keep kern small, understandable, and extensible rather than turni
 
 - **PHP** — framework implementation
 - **Composer** — dependency management and autoloading
-- **[marclang64/backend-tooling](https://github.com/marclang64/backend-tooling)** — reusable package for development tooling and code quality
+- **[marclang64/php-tooling](https://github.com/marclang64/php-tooling)** — reusable package for PHP development tooling and code quality
   - **PHPUnit** — automated testing
   - **PHPStan** — static code analysis
   - **PHP-CS-Fixer** — code formatting

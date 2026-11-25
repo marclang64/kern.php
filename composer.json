@@ -9,13 +9,15 @@
         "psr/http-message": "^2.0",
         "psr/http-factory": "^1.1"
     },
-    "require-dev": {
-        "marclang64/backend-tooling": "1.3.0"
-    },
     "repositories": [
         {
+            "name": "php-tooling",
             "type": "vcs",
-            "url": "https://github.com/marclang64/backend-tooling"
+            "url": "https://github.com/marclang64/php-tooling.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/marclang64/php-tooling"
         }
     ],
     "scripts": {
@@ -37,5 +39,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "marclang64/php-tooling": "2.0.0"
+    }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee08ab1ccaaad54f662fd94fd4819050",
+    "content-hash": "5c01a3ef5749d844956033f0af5bfa6e",
     "packages": [
         {
             "name": "nyholm/psr7",
@@ -756,17 +756,17 @@
             "time": "2026-11-17T18:09:13+00:00"
         },
         {
-            "name": "marclang64/backend-tooling",
-            "version": "v1.3.0",
+            "name": "marclang64/php-tooling",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/marclang64/backend-tooling.git",
-                "reference": "781bddeb05501c2dcf40ad1e7b39d1e67f00fd2a"
+                "url": "https://github.com/marclang64/php-tooling.git",
+                "reference": "9c4fec474c27dc2513ec4ac1f7a23c8be43668b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marclang64/backend-tooling/zipball/781bddeb05501c2dcf40ad1e7b39d1e67f00fd2a",
-                "reference": "781bddeb05501c2dcf40ad1e7b39d1e67f00fd2a",
+                "url": "https://api.github.com/repos/marclang64/php-tooling/zipball/9c4fec474c27dc2513ec4ac1f7a23c8be43668b0",
+                "reference": "9c4fec474c27dc2513ec4ac1f7a23c8be43668b0",
                 "shasum": ""
             },
             "require": {
@@ -780,12 +780,12 @@
                 "symfony/process": "^8.1"
             },
             "bin": [
-                "bin/backend-tooling"
+                "bin/php-tooling"
             ],
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BackendTooling\\": "src/"
+                    "PhpTooling\\": "src/"
                 }
             },
             "scripts": {
@@ -813,10 +813,10 @@
             ],
             "description": "Reusable tooling configurations for modern PHP development",
             "support": {
-                "source": "https://github.com/marclang64/backend-tooling/tree/v1.3.0",
-                "issues": "https://github.com/marclang64/backend-tooling/issues"
+                "source": "https://github.com/marclang64/php-tooling/tree/v2.0.0",
+                "issues": "https://github.com/marclang64/php-tooling/issues"
             },
-            "time": "2026-11-25T21:54:07+00:00"
+            "time": "2026-11-25T22:23:52+00:00"
         },
         {
             "name": "myclabs/deep-copy",
